@@ -21,7 +21,7 @@ import { FlipCard } from 'react-flop-card';
 
 [http://pckhoi.github.io/react-flop-card-demo.html](http://pckhoi.github.io/react-flop-card-demo.html)
 
-### Code from the above demo:
+Code from the above demo:
 
 ```js
 import React, { Component } from 'react';
@@ -153,11 +153,11 @@ Trigger when hovered.
 
 - **frontChild: React element**
 
-The element to display in the front of the card.
+The element to display in the front of card.
 
 - **backChild: React element**
 
-The element to display in the back of the card.
+The element to display in the back of card.
 
 - **width: number**
 
