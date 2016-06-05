@@ -1,0 +1,5 @@
+-   repo: git://github.com/pre-commit/mirrors-eslint
+    sha: v2.8.0
+    hooks:
+    -   id: eslint
+        additional_dependencies: ["eslint@2.11.1", "eslint-plugin-react@5.1.1", "babel-eslint@6.0.3"]
