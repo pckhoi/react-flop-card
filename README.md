@@ -15,7 +15,7 @@ import { FlipCard } from 'react-flop-card';
 
 ## Install
 
-`npm install --save react-flip-card`
+`npm install --save react-flop-card`
 
 ## Demo
 
@@ -118,7 +118,7 @@ exports
 - `FlipCard`
 - `RotateCard`
 
-## <FlipCard/>
+## &lt;FlipCard/>
 
 ### Usage
 
@@ -172,7 +172,7 @@ The height of the card in pixel.
   - **style.back: object** - style that apply to wrapper of `backChild`.
   - **style.wrapper: object** - style that apply to outer wrapper.
 
-## <RotateCard/>
+## &lt;RotateCard/>
 
 This is a low level component with no animation. The plus side is you can easily control it's rotate angle with `degree` prop.
 
