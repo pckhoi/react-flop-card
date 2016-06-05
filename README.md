@@ -161,11 +161,11 @@ The element to display in the back of the card.
 
 - **width: number**
 
-The width of the card in pixel.
+The width of card in pixel.
 
 - **height: number**
 
-The height of the card in pixel.
+The height of card in pixel.
 
 - **style: object**
   - **style.front: object** - style that apply to wrapper of `frontChild`.
@@ -174,7 +174,7 @@ The height of the card in pixel.
 
 ## &lt;RotateCard/>
 
-This is a low level component with no animation. The plus side is you can easily control it's rotate angle with `degree` prop.
+This is a low level component with no animation. The plus side is that you can easily control it's rotate angle with `degree` prop.
 
 ### Usage
 
