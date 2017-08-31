@@ -94,8 +94,7 @@
                 }
             }
 
-        ],
-        "react/wrap-multilines": 1
+        ]
     },
     "env": {
         "browser": true,
