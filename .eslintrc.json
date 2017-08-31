@@ -68,10 +68,7 @@
         "react/jsx-pascal-case": 1,
         "react/jsx-uses-vars": 1,
         "react/no-danger": 1,
-        "react/no-deprecated": [
-            1,
-            { "react": "0.14.3" }
-        ],
+        "react/no-deprecated": 1,
         "react/no-did-mount-set-state": 1,
         "react/no-did-update-set-state": 1,
         "react/no-direct-mutation-state": 1,
