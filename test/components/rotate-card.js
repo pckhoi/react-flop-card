@@ -3,7 +3,7 @@ import React from 'react';
 import { unmountComponentAtNode, findDOMNode, render } from 'react-dom';
 import {
   renderIntoDocument, findRenderedDOMComponentWithTag, Simulate
-} from 'react-addons-test-utils';
+} from 'react-dom/test-utils';
 import { spy, stub } from 'sinon';
 
 import 'polyfill';

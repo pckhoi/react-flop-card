@@ -3,13 +3,12 @@ import React from 'react';
 import { unmountComponentAtNode, findDOMNode, render } from 'react-dom';
 import {
   renderIntoDocument, findRenderedComponentWithType
-} from 'react-addons-test-utils';
+} from 'react-dom/test-utils';
 import { spy, stub } from 'sinon';
 
 import 'polyfill';
 import FlipCard from 'components/flip-card';
 import RotateCard from 'components/rotate-card';
-
 
 describe('FlipCard component', function () {
   let element;
