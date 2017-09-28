@@ -159,13 +159,13 @@ The element to display in the front of card.
 
 The element to display in the back of card.
 
-- **width: number**
+- **width: number or string**
 
-The width of card in pixel.
+If width is given as number, it will be automatically converted to px. If you want to use units other than px, supply a string instead. If not given then width will not be set (no default value).
 
 - **height: number**
 
-The height of card in pixel.
+Same as width.
 
 - **style: object**
   - **style.front: object** - style that apply to wrapper of `frontChild`.
