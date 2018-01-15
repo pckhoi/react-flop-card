@@ -91,6 +91,7 @@ const frontStyle = {
   top: '0px',
   left: '0px',
   transformStyle: 'preserve-3d',
+  WebkitBackfaceVisibility: 'hidden',
   backfaceVisibility: 'hidden'
 };
 
@@ -99,5 +100,6 @@ const backStyle = {
   top: '0px',
   left: '0px',
   transformStyle: 'preserve-3d',
+  WebkitBackfaceVisibility: 'hidden',
   backfaceVisibility: 'hidden'
 };
